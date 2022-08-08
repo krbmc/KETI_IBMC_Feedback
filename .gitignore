@@ -12,3 +12,4 @@ _deps
 build
 client
 feedback_engine
+.vscode
