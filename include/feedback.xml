@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<node name="/org/keti/DBus/Feedback">
+  <interface name="org.keti.DBus.Feedback">
+    <method name="Level1">
+      <arg type="s" name="errMsg" direction="in"/>
+      <arg type="s" name="warningReport" direction="out"/>
+    </method>
+    <method name="Level2">
+      <arg type="s" name="errMsg" direction="in"/>
+      <arg type="s" name="faultPredictionReport" direction="out"/>
+    </method>
+    <method name="Level3">
+      <arg type="s" name="errMsg" direction="in"/>
+      <arg type="s" name="criticalReport" direction="out"/>
+    </method>
+    <method name="Level4">
+      <arg type="s" name="errMsg" direction="in"/>
+      <arg type="s" name="selfRepairLog" direction="out"/>
+    </method>
+  </interface>
+</node>
